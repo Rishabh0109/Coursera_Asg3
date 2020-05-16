@@ -1,0 +1,67 @@
+.navbar  
+{
+	font-weight: bold;
+	background-color: grey;
+
+}
+a:hover
+{
+	color: white;
+}
+#item1 , #item2 , #item3
+{
+	color: black;
+
+}
+#comname
+{
+	font-size: 30px;
+}
+.bg-light
+{
+	background-color: lightgrey ! important ; 
+}
+h2
+{
+	margin-top: 50px;
+	font-family: Harlow Solid Italic;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+h4
+{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.col-xs-12
+{
+	border: 2px solid black;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #CCD1D1;
+	padding-top: 20px;
+	height: 700px;
+	margin-bottom: 50px;
+}
+#navbarMenu
+{
+	background-color: #48C9B0 ;
+}
+@media (max-width: 576px)
+{
+	.col-xs-12
+	{
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+	#comname
+{
+	font-size:2em;
+}
+}
+li
+{
+	border: 1px solid white;
+}
